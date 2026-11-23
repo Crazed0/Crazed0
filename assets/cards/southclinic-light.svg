@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="236" viewBox="0 0 440 236" role="img" aria-label="South Clinic: Site de psicologia com marcações e loja de materiais terapêuticos digitais e físicos.">
+<defs>
+  <radialGradient id="g" cx="100%" cy="0%" r="75%">
+    <stop offset="0" stop-color="#25b5a5" stop-opacity="0.18"/>
+    <stop offset="1" stop-color="#25b5a5" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="c"><rect width="440" height="236" rx="16"/></clipPath>
+</defs>
+<style>
+  .pulse{transform-origin:center;transform-box:fill-box;animation:p 2.2s ease-out infinite}
+  @keyframes p{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+  .sh{animation:sh 7s ease-in-out infinite}
+  @keyframes sh{0%,100%{opacity:.75}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="440" height="236" fill="#f6f8fc"/>
+  <rect class="sh" width="440" height="236" fill="url(#g)"/>
+  <rect x="0" y="0" width="440" height="3" fill="#25b5a5" opacity=".9"/>
+</g>
+<rect x=".5" y=".5" width="439" height="235" rx="16" fill="none" stroke="#dce3ee"/>
+<g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <text x="24" y="40" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11" letter-spacing="1.4" fill="#25b5a5" font-weight="700">SAÚDE · MARCAÇÕES</text>
+  <text x="24" y="74" font-size="23" font-weight="800" fill="#0c1a2e" letter-spacing="-.4">South Clinic</text>
+  <text x="24" y="108" font-size="14" fill="#53637c">Site de psicologia com marcações e loja de materiais</text><text x="24" y="129" font-size="14" fill="#53637c">terapêuticos digitais e físicos.</text>
+  <rect x="24" y="190" width="71" height="24" rx="12" fill="#e9eef6"/><text x="59.5" y="206" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11.5" fill="#34445d">Next.js</text><rect x="103" y="190" width="71" height="24" rx="12" fill="#e9eef6"/><text x="138.5" y="206" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11.5" fill="#34445d">MariaDB</text>
+  <g>
+    <circle cx="414" cy="36" r="4" fill="#2fbf71"/><circle class="pulse" cx="414" cy="36" r="4" fill="#2fbf71"/>
+    <text x="402" y="40" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11" fill="#8a97ab">…/southclinic ↗</text>
+  </g>
+</g>
+</svg>
