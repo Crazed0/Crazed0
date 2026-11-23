@@ -45,6 +45,10 @@
 | **[BestCode Control Panel](https://web.bestcode.pt)** | Painel de alojamento próprio: deploy de sites Node/Next.js, bases de dados, email, webmail e phpMyAdmin com login único, firewall e gestão de utilizadores. Scripts de infraestrutura em [`bestcode-cp`](https://github.com/Crazed0/bestcode-cp). | Node · Linux · Nginx · MariaDB |
 | **BestCode Panel** | App de desktop para gerir servidores, ficheiros (SFTP) e bases de dados a partir do PC. | Electron · Next.js · TypeScript |
 | **[bestcode.pt](https://bestcode.pt)** | Site da BestCode, com cena 3D interativa. | Three.js · Tailwind |
+| **[𝓟𝓡𝓞𝓙𝓔𝓒𝓣 Gym](https://bestcode.pt/gym/)** | App de ginásio (PWA, funciona offline) ligada a um bot de Discord: treinos, recordes, feed social, contagem de calorias e música com o DJ Ganley. O bot transforma o treino num jogo com XP, ranks, desafios e duelos. | React · Node · Discord.js |
+| **[South Clinic](https://web.bestcode.pt/sites/southclinic/)** | Site de psicologia com marcações e loja de materiais terapêuticos digitais e físicos. | Next.js · MariaDB |
+| **[Kyoo Soku Seishin Ryu](https://bestcode.pt/kyoosoku/)** | Site de uma escola de defesa pessoal tradicional japonesa, com dojos de norte a sul do país. | Node/Express |
+| **[Clube de Jiu-Jitsu](https://bestcode.pt/jiujitsu/)** | Gestão de clubes de jiu-jitsu (multi-clube, PWA). Alojamento e adaptação para correr num subcaminho. | Node/Express · SQLite |
 
 ### 🧩 Open source
 
