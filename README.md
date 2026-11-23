@@ -28,7 +28,7 @@ Faço sites, lojas online e sistemas de gestão para negócios, do design ao ser
   <a href="https://bestcode.pt/kyoosoku/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/kyoosoku-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/kyoosoku-light.svg"><img src="assets/cards/kyoosoku-dark.svg" alt="Kyoo Soku Seishin Ryu" width="48%"></picture></a>
 </p>
 <p align="center">
-  <a href="https://bestcode.pt/jiujitsu/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jiujitsu-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/jiujitsu-light.svg"><img src="assets/cards/jiujitsu-dark.svg" alt="Clube de Jiu-Jitsu" width="48%"></picture></a>
+  <a href="https://bestcode.pt"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/site-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/site-light.svg"><img src="assets/cards/site-dark.svg" alt="bestcode.pt" width="48%"></picture></a>
   &nbsp;&nbsp;&nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/panel-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/panel-light.svg"><img src="assets/cards/panel-dark.svg" alt="BestCode Panel (app de desktop)" width="48%"></picture>
 </p>
