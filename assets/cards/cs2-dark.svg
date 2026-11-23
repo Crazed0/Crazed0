@@ -12,7 +12,7 @@
   .sh{animation:sh 7s ease-in-out infinite}
   @keyframes sh{0%,100%{opacity:.75}50%{opacity:1}}
   .mini{display:none}
-  @media (max-width:340px){.full{display:none}.mini{display:inline}}
+  @media (max-width:390px){.full{display:none}.mini{display:inline}}
   @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <g clip-path="url(#c)">
