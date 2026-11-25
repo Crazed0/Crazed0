@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="472" height="260" viewBox="-16 0 472 260" role="img" aria-label="Raft Mods: 14 mods para o Raft em C#, com atualização a quente sem reiniciar o jogo.">
+<defs>
+  <radialGradient id="g" cx="100%" cy="0%" r="75%">
+    <stop offset="0" stop-color="#e0a040" stop-opacity="0.18"/>
+    <stop offset="1" stop-color="#e0a040" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="c"><rect width="440" height="236" rx="16"/></clipPath>
+</defs>
+<style>
+  .pulse{transform-origin:center;transform-box:fill-box;animation:p 2.2s ease-out infinite}
+  @keyframes p{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+  .sh{animation:sh 7s ease-in-out infinite}
+  @keyframes sh{0%,100%{opacity:.75}50%{opacity:1}}
+  .mini{display:none}
+  @media (max-width:390px){.full{display:none}.mini{display:inline}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="440" height="236" fill="#f6f8fc"/>
+  <rect class="sh" width="440" height="236" fill="url(#g)"/>
+  <rect x="0" y="0" width="440" height="3" fill="#e0a040" opacity=".9"/>
+</g>
+<rect x=".5" y=".5" width="439" height="235" rx="16" fill="none" stroke="#dce3ee"/>
+<g class="full" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <text x="24" y="40" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11" letter-spacing="1.4" fill="#e0a040" font-weight="700">OPEN SOURCE · RAFT</text>
+  <rect x="24" y="52" width="48" height="48" rx="12" fill="#2a8fbf"/><rect x="24" y="82.0" width="48" height="18.0" fill="#1f6f99"/><polygon points="33.0,70.0 39.0,70.0 39.0,86.0 33.0,86.0" fill="#b07a45"/><polygon points="41.0,70.0 47.0,70.0 47.0,86.0 41.0,86.0" fill="#9a6a3a"/><polygon points="49.0,70.0 55.0,70.0 55.0,86.0 49.0,86.0" fill="#b07a45"/><polygon points="57.0,70.0 63.0,70.0 63.0,86.0 57.0,86.0" fill="#9a6a3a"/><polygon points="31.0,74.0 65.0,74.0 65.0,77.0 31.0,77.0" fill="#6b4428"/><polygon points="31.0,80.0 65.0,80.0 65.0,83.0 31.0,83.0" fill="#6b4428"/><polygon points="47.0,58.0 49.0,58.0 49.0,70.0 47.0,70.0" fill="#6b4428"/><polygon points="49.0,59.0 60.0,66.0 49.0,68.0" fill="#f2e6cc"/><rect x="24.5" y="52.5" width="47" height="47" rx="12" fill="none" stroke="#e0a040" stroke-opacity=".55"/>
+  <text x="86" y="84" font-size="22" font-weight="800" fill="#0c1a2e" letter-spacing="-.4">Raft Mods</text>
+  <text x="24" y="126" font-size="14" fill="#53637c">14 mods para o Raft em C#: sincronização com</text><text x="24" y="146" font-size="14" fill="#53637c">atualização a quente, sobrevivência hardcore,</text><text x="24" y="166" font-size="14" fill="#53637c">pesca com luta e skills.</text>
+  <rect x="24" y="188" width="57" height="26" rx="13" fill="#e9eef6"/><g transform="translate(35 194.5) scale(.625)"><path d="M24 8.77h-2.468v7.565h-1.425V8.77h-2.462V7.53H24zm-6.852 7.565h-4.821V7.53h4.63v1.24h-3.205v2.494h2.953v1.234h-2.953v2.604h3.396zm-6.708 0H8.882L4.78 9.863a2.896 2.896 0 0 1-.258-.51h-.036c.032.189.048.592.048 1.21v5.772H3.157V7.53h1.659l3.965 6.32c.167.261.275.442.323.54h.024c-.04-.233-.06-.629-.06-1.185V7.529h1.372zm-8.703-.693a.868.829 0 0 1-.869.829.868.829 0 0 1-.868-.83.868.829 0 0 1 .868-.828.868.829 0 0 1 .869.829Z" fill="#9B4F96"/></g><text x="56" y="205.5" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11.5" fill="#34445d">C#</text><rect x="89" y="188" width="78" height="26" rx="13" fill="#e9eef6"/><g transform="translate(100 194.5) scale(.625)"><path d="m12.9288 4.2939 3.7997 2.1929c.1366.077.1415.2905 0 .3675l-4.515 2.6076a.4192.4192 0 0 1-.4246 0L7.274 6.8543c-.139-.0745-.1415-.293 0-.3675l3.7972-2.193V0L1.3758 5.5977V16.793l3.7177-2.1456v-4.3858c-.0025-.1565.1813-.2682.318-.1838l4.5148 2.6076a.4252.4252 0 0 1 .2136.3676v5.2127c.0025.1565-.1813.2682-.3179.1838l-3.7996-2.1929-3.7178 2.1457L12 24l9.6954-5.5977-3.7178-2.1457-3.7996 2.1929c-.1341.082-.3229-.0248-.3179-.1838V13.053c0-.1565.087-.2956.2136-.3676l4.5149-2.6076c.134-.082.3228.0224.3179.1838v4.3858l3.7177 2.1456V5.5977L12.9288 0Z" fill="#0c1a2e"/></g><text x="121" y="205.5" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11.5" fill="#34445d">Unity</text>
+  <g>
+    
+    <text x="416" y="40" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Consolas, monospace" font-size="11" fill="#8a97ab">github.com/Crazed0 ↗</text>
+  </g>
+</g>
+<g class="mini" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <rect x="24" y="30" width="84" height="84" rx="21" fill="#2a8fbf"/><rect x="24" y="82.5" width="84" height="31.5" fill="#1f6f99"/><polygon points="39.8,61.5 50.2,61.5 50.2,89.5 39.8,89.5" fill="#b07a45"/><polygon points="53.8,61.5 64.2,61.5 64.2,89.5 53.8,89.5" fill="#9a6a3a"/><polygon points="67.8,61.5 78.2,61.5 78.2,89.5 67.8,89.5" fill="#b07a45"/><polygon points="81.8,61.5 92.2,61.5 92.2,89.5 81.8,89.5" fill="#9a6a3a"/><polygon points="36.2,68.5 95.8,68.5 95.8,73.8 36.2,73.8" fill="#6b4428"/><polygon points="36.2,79.0 95.8,79.0 95.8,84.2 36.2,84.2" fill="#6b4428"/><polygon points="64.2,40.5 67.8,40.5 67.8,61.5 64.2,61.5" fill="#6b4428"/><polygon points="67.8,42.2 87.0,54.5 67.8,58.0" fill="#f2e6cc"/><rect x="24.5" y="30.5" width="83" height="83" rx="21" fill="none" stroke="#e0a040" stroke-opacity=".55"/>
+  <text x="128" y="84" font-size="36" font-weight="800" fill="#0c1a2e" letter-spacing="-.8">Raft Mods</text>
+  <rect x="24" y="146" width="64" height="64" rx="16" fill="#e9eef6"/><g transform="translate(38 160) scale(1.5)"><path d="M24 8.77h-2.468v7.565h-1.425V8.77h-2.462V7.53H24zm-6.852 7.565h-4.821V7.53h4.63v1.24h-3.205v2.494h2.953v1.234h-2.953v2.604h3.396zm-6.708 0H8.882L4.78 9.863a2.896 2.896 0 0 1-.258-.51h-.036c.032.189.048.592.048 1.21v5.772H3.157V7.53h1.659l3.965 6.32c.167.261.275.442.323.54h.024c-.04-.233-.06-.629-.06-1.185V7.529h1.372zm-8.703-.693a.868.829 0 0 1-.869.829.868.829 0 0 1-.868-.83.868.829 0 0 1 .868-.828.868.829 0 0 1 .869.829Z" fill="#9B4F96"/></g><rect x="100" y="146" width="64" height="64" rx="16" fill="#e9eef6"/><g transform="translate(114 160) scale(1.5)"><path d="m12.9288 4.2939 3.7997 2.1929c.1366.077.1415.2905 0 .3675l-4.515 2.6076a.4192.4192 0 0 1-.4246 0L7.274 6.8543c-.139-.0745-.1415-.293 0-.3675l3.7972-2.193V0L1.3758 5.5977V16.793l3.7177-2.1456v-4.3858c-.0025-.1565.1813-.2682.318-.1838l4.5148 2.6076a.4252.4252 0 0 1 .2136.3676v5.2127c.0025.1565-.1813.2682-.3179.1838l-3.7996-2.1929-3.7178 2.1457L12 24l9.6954-5.5977-3.7178-2.1457-3.7996 2.1929c-.1341.082-.3229-.0248-.3179-.1838V13.053c0-.1565.087-.2956.2136-.3676l4.5149-2.6076c.134-.082.3228.0224.3179.1838v4.3858l3.7177 2.1456V5.5977L12.9288 0Z" fill="#0c1a2e"/></g>
+  
+</g>
+</svg>
